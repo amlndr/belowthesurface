@@ -113,12 +113,14 @@ nav{
           humans make the change go at a faster rate. And that is what we want our user to feel,
           and be mindfully curious on how their action can impact nature and its surroundings,
           including humans.<br><br>
-          Below is the sketch of our idea.
+          Below is our artefact and how the interaction works.
           
         </p>
-        <img src='' width=70% height=70% id='im'>
+        <video width="70%"muted controls>
+          <source src="ide.Mp4" type="video/mp4">
+        </video>
 
-        <h1>We have experimented on various ways to implement our sketch.</h1>
+        <h1>We have experimented on various ways to implement our idea</h1>
         <p>Here's a preview of what we've done so far and how we iterated our design.</p>
         
         
@@ -209,7 +211,29 @@ nav{
             </p>
           </div>
         </div>
-        
+      
+        <h1>We also tested our electronics, using a pressure sensor and a grove motor shield
+          with an arduino.
+        </h1>
+        <p>The pressure sensor and the grove motor shield each have their own arduino, connected
+          with wires to communicate to each other. Where the grove motor shield is the client and
+        the pressure sensor as the server.<br>
+        below is the diagram on how it works.
+        </p>
+        <img src='diagram.png' width='800'/>
+        <p>Next we programmed the artefact so that when a person puts a cup on the pressure 
+          sensor, it can detect how much water is in the cup, and it will make the artefact 
+        to start moving in accordance to its weight. Where the less water, the faster the actuator moves.</s> </p>
+      <p>Below is the video of our programming tests with the artefact.</p> 
+      <video width="300"muted controls>
+        <source src="exp.Mp4" type="video/mp4">
+      </video>
+      <p>Our program worked with 100% functionality. The issues lies more on the friection created
+        by the organic shape and the actuator itself.
+      </p>
+      <h1>Though far from perfect, this artefact is a reminder that not
+        all changes can be seen.
+      </h1>
 
 
        </div>
